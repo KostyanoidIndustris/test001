@@ -1,0 +1,976 @@
+/* ___________ШАПКА САЙТА____________*/
+header{
+    background-color: rgba(13, 13, 13, 1);
+    height: 60px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+} 
+
+.div_img_picture {
+  text-align: center;
+}
+
+.header_button3 {
+  position: absolute;
+  right: 200px; /*150 пикселей соблюдать*/
+}
+
+.header_button4 {
+  position: absolute;
+  right: 50px; /*150 пикселей соблюдать*/
+}
+
+
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+/*_______Кнопка Компьютерный блог_________*/
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+header button{
+    color: #fff;
+    background: rgba(13, 13, 13, 1);
+    margin-left: 5px;
+    border: 2px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+} 
+
+
+
+
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+/* ___________БОКОВОЕ МЕНЮ____________ */
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+.sidenav {
+    width: 271px;
+    position: relative;
+    top: 15px;
+    left: 994px;
+    background: #111;
+    overflow-x: hidden;
+    padding: 8px 0;
+    border-radius: 5%;
+    display: block;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+.card_button01 {
+  font-size: 18px;
+  width: 210px;
+  height: 50px;
+  background-color: #0012B2;
+  color: #fff;
+  align-items: center;
+  margin: 30px auto 30px ;
+  display: block;
+  border-radius: 8px;
+}
+
+
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+/*_________БОКОВОЕ МЕНЮ(ДЛЯ МОБИЛКИ)____________*/
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+
+
+.sidenav3 {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav3 a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav3 a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav3 .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.hethg {
+  position:absolute;
+  right: 20px;
+  font-size:25px;
+  cursor:pointer;
+  color:#f1f1f1;
+  text-align: center;
+}
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+/*_________КАРТОЧКИ ДЛЯ САЙТА____________*/
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+
+.card1 {
+  align-items: center;
+  border-radius: 10px; /* 5px rounded corners */
+  max-width: 920px;
+  max-height: 250px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  display: grid;
+  background-color: #000;
+  grid-template-columns: min-content 1fr;
+}
+.card_title {
+  color: #fff;
+  font-size: 28px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  margin-top: -25px;
+}
+.card_text {
+  padding: 0 150px 15px 0;
+  font-size: 15px;
+  margin-top: -20px;
+}
+
+.card_button {
+  font-size: 18px;
+ width: 150px;
+ height: 50px;
+ background-color: #0012B2;
+ color: #fff;
+ margin-left: 550px;
+ margin-top: 10px;
+ border-radius: 8px;
+}
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(255,255,255);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  font-size: 12px;
+  max-width: 900px;
+}
+.card3 {
+  box-shadow: 0 4px 8px 0 rgba(255,255,255);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  font-size: 12px;
+  max-width: 900px;
+}
+
+
+
+
+
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+/*_____БОКОВОЕ МЕНЮ(РЕКОМЕНДАЦИИ)____ */
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+
+.sidenav2 {
+    width: 271px;
+    position: relative;
+    top: 30px;
+    left: 994px;
+    background: #111;
+    overflow-x: hidden;
+    padding: 8px 0;
+    z-index: 1;
+    border-radius: 15px;
+}
+
+.sidenav2 a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav2 a:hover {
+    color: #f1f1f1;
+}
+.main {
+  margin-top: -1060px;
+  margin-right: 350px; /* Same as the width of the sidenav */
+  font-size: 21px; /* Increased text to enable scrolling */
+  padding: 50px 10px;
+  color: white;
+    
+}
+.ahki {
+  margin-left: 830px;
+
+}
+.ahki1 {
+  margin-left: 10px;
+  
+}
+.ahki2 {
+  margin-left: 10px;
+  
+}
+.ahki3 {
+  margin-left: 10px;
+  
+}
+.ahki4 {
+  margin-left: 10px;
+  
+}
+.card5 {
+  width: 250px;
+  background-color:#111;
+  margin-top: -15px;
+  height: 238px;
+}
+.container5 {
+  padding: 2px 16px;
+}
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+/* _______АДАПТИВНОСТЬ САЙТА(под разные разрешения)_______ */
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+@media screen and (min-width: 1280px){ 
+  body {
+    height: 6600px;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(22, 22, 23, 1);
+    width: 1280px; 
+    margin:0 auto;
+    overflow-x: hidden;
+    overflow-y: scroll; 
+  }
+
+  html{
+    background-color: #fff;
+    font-family: "Comic Sans MS", "Comic Sans";
+  }
+  .sidenav3{
+    visibility: hidden;
+  }
+  .hethg{
+    visibility: hidden;
+  }
+  .ahki {
+    margin-left: 800px;
+  }
+}
+@media screen and (min-width: 993px) and (max-width: 1279px) {
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(22, 22, 23, 1);
+    width: 1000px; 
+    margin:0 auto; 
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  html{
+    background-color: #fff;
+    font-family: "Comic Sans MS", "Comic Sans";
+  }
+  .sidenav {
+    left: 712px;
+  }
+  .sidenav2{
+    left: 712px;
+  }
+  .hethg{
+    visibility: hidden;
+  }
+  .ahki {
+    margin-left: 515px;
+  }
+
+}
+
+@media screen and (min-width: 900px) and (max-width: 992px) {
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(22, 22, 23, 1);
+    width: auto; 
+    margin:0 auto; 
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  html{
+    background-color: #fff;
+    font-family: "Comic Sans MS", "Comic Sans";
+  }
+  .sidenav {
+    left: 71%;
+  }
+  .sidenav2{
+    left: 71%;
+  }
+  .sidenav3{
+    visibility: hidden;
+  }
+  .hethg{
+    visibility: hidden;
+  }
+  .ahki {
+    margin-left: 500px;
+  }
+  .header_button3 {
+    right: 170px; /*150 пикселей соблюдать*/
+  }
+  .header_button4 {
+    right: 30px; /*150 пикселей соблюдать*/
+  }
+  .restracia_bok_menu {
+    visibility: hidden;
+    position: fixed;
+  }
+
+}
+
+@media screen and (min-width: 801px) and (max-width: 899px) {
+    body {
+        height: 1120px;
+        margin: 0;
+        padding: 0;
+        background-color: rgba(22, 22, 23, 1);
+        width: auto; 
+        margin:0 auto;
+        overflow-x: hidden;
+        overflow-y: scroll; 
+      }
+      html{
+        font-family: "Comic Sans MS", "Comic Sans";
+      }
+
+      .ahki {
+        margin-left:420px;
+      }
+      .main {
+        margin-top: -1100px;
+        margin-right: 0px; /* Same as the width of the sidenav */
+        font-size: 18px; /* Increased text to enable scrolling */
+        padding: 100px 10px;
+        color: white;  
+      }
+      .header_button3 {
+        right: 270px; /*150 пикселей соблюдать*/
+      }
+      .header_button4 {
+        right: 130px; /*150 пикселей соблюдать*/
+      }
+      .restracia_bok_menu {
+        visibility: hidden;
+        position: fixed;
+      }
+    }
+
+    @media screen and (min-width: 769px) and (max-width: 800px) {
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: rgba(22, 22, 23, 1);
+        width: 768px; 
+        margin:0 auto; 
+        overflow-x: hidden;
+        overflow-y: scroll;
+      }
+      html{
+        font-family: "Comic Sans MS", "Comic Sans";
+      }
+      .sidenav {
+        visibility: hidden;
+      }
+      .sidenav2 {
+        visibility: hidden;
+      }
+      .ahki {
+        margin-left: 300px;
+      }
+      .main {
+        margin-top: -1000px;
+        margin-right: 270px; /* Same as the width of the sidenav */
+        font-size: 21px; /* Increased text to enable scrolling */
+        padding: 0px 10px;
+        color: white;  
+      }
+      .header_button3 {
+        right: 270px; /*150 пикселей соблюдать*/
+      }
+      .header_button4 {
+        right: 130px; /*150 пикселей соблюдать*/
+      }
+      .card1 {
+        align-items: center;
+        border-radius: 10px; /* 5px rounded corners */
+        max-width: 740px;
+        max-height: 400px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        display: grid;
+        background-color: #000;
+        grid-template-columns: min-content 1fr;
+      }
+      .card_title {
+        color: #fff;
+        font-size: 25px;
+        margin-left: 40px;
+        margin-bottom: 10px;
+        margin-top: -25px;
+      }
+      
+      .card_button {
+        font-size: 18px;
+       width: 150px;
+       height: 50px;
+       background-color: #0012B2;
+       color: #fff;
+       margin-left: 350px;
+       margin-top: 10px;
+       border-radius: 8px;
+      }
+      .restracia_bok_menu {
+        visibility: hidden;
+        position: fixed;
+      }
+      }
+      
+      @media screen and (min-width: 426px) and (max-width: 768px) {
+        body {
+          margin: 0;
+          padding: 0;
+          background-color: rgba(22, 22, 23, 1);
+          margin:0 auto;
+          overflow-x: hidden;
+          overflow-y: scroll;
+          width: 800px; 
+        }
+        html{
+          font-family: "Comic Sans MS", "Comic Sans";
+          overflow-x: hidden;
+          overflow-y: scroll;
+        }
+      
+        .sidenav {
+          visibility: hidden;
+        }
+        .sidenav2 {
+          visibility: hidden;
+        }
+        .d7 {
+          visibility: hidden;
+        }
+        .ahki {
+          margin-left:330px;
+        }
+        .main {
+          margin-top: -950px;
+          margin-left: 20px;
+          margin-right:20px ; /* Same as the width of the sidenav */
+          font-size: 20px; /* Increased text to enable scrolling */
+          padding: 0px 0px;
+          color: white;  
+        }
+        .header_button3 {
+          right: 270px; /*150 пикселей соблюдать*/
+          visibility: hidden;
+        }
+        .header_button4 {
+          right: 130px; /*150 пикселей соблюдать*/
+          visibility: hidden;
+        }
+        .card1 {
+          align-items: center;
+          border-radius: 10px; /* 5px rounded corners */
+          max-width: 770px;
+          max-height: 400px;
+          margin-bottom: 20px;
+          margin-left: 20px;
+          display: grid;
+          background-color: #000;
+          grid-template-columns: min-content 1fr;
+        }
+        .card_title {
+          color: #fff;
+          font-size: 21px;
+          margin-left: 20px;
+          margin-bottom: 10px;
+          margin-top: -20px;
+        }
+        .card_text {
+          padding: 0 150px 15px 0;
+          font-size: 17px;
+          margin-top: -20px;
+        }
+        .card_button {
+          font-size: 18px;
+         width: 150px;
+         height: 50px;
+         background-color: #0012B2;
+         color: #fff;
+         margin-left: 400px;
+         margin-top: 10px;
+         border-radius: 8px;
+        }
+        .restracia_bok_menu {
+          visibility: hidden;
+          position: fixed;
+        }
+      
+      
+      }
+      @media screen and (min-width: 376px) and (max-width: 425px) {
+        body {
+          margin: 0;
+          padding: 0;
+          background-color: rgba(22, 22, 23, 1);
+          margin:0 auto;
+          overflow-x: hidden;
+          overflow-y: scroll;
+          width: 600px;
+        }
+        html{
+          font-family: "Comic Sans MS", "Comic Sans";
+          overflow-x: hidden;
+          overflow-y: scroll;
+        }
+      
+        .sidenav {
+          visibility: hidden;
+        }
+        .sidenav2 {
+          visibility: hidden;
+        }
+        .d7 {
+          visibility: hidden;
+        }
+        .ahki {
+          margin-left:130px;
+        }
+        .main {
+          margin-top: -950px;
+          margin-left: 20px;
+          margin-right:20px ; /* Same as the width of the sidenav */
+          font-size: 20px; /* Increased text to enable scrolling */
+          padding: 0px 0px;
+          color: white;  
+        }
+        .header_button3 {
+          right: 270px; /*150 пикселей соблюдать*/
+          visibility: hidden;
+        }
+        .header_button4 {
+          right: 130px; /*150 пикселей соблюдать*/
+          visibility: hidden;
+        }
+        .card1 {
+          align-items: center;
+          border-radius: 10px; /* 5px rounded corners */
+          max-width: 570px;
+          max-height: 400px;
+          margin-bottom: 20px;
+          margin-left: 20px;
+          display: grid;
+          background-color: #000;
+          grid-template-columns: min-content 1fr;
+        }
+        .card_title {
+          color: #fff;
+          font-size: 21px;
+          margin-left: 20px;
+          margin-bottom: 10px;
+          margin-top: -20px;
+        }
+        .card_text {
+          padding: 0 150px 15px 0;
+          font-size: 17px;
+          margin-top: -20px;
+        }
+        .card_button {
+          font-size: 18px;
+         width: 150px;
+         height: 50px;
+         background-color: #0012B2;
+         color: #fff;
+         margin-left: 210px;
+         margin-top: 10px;
+         border-radius: 8px;
+        }
+        .restracia_bok_menu {
+          visibility: hidden;
+          position: fixed;
+        }
+      
+      
+      }
+      
+      @media screen and (min-width: 321px) and (max-width: 375px) {
+        body {
+          margin: 0;
+          padding: 0;
+          background-color: rgba(22, 22, 23, 1);
+          margin:0 auto;
+          overflow-x: hidden;
+          overflow-y: scroll;
+          width: 600px;
+        }
+        html{
+          font-family: "Comic Sans MS", "Comic Sans";
+          overflow-x: hidden;
+          overflow-y: scroll;
+        }
+      
+        .sidenav {
+          visibility: hidden;
+        }
+        .sidenav2 {
+          visibility: hidden;
+        }
+        .d7 {
+          visibility: hidden;
+        }
+        .ahki {
+          margin-left:130px;
+        }
+        .main {
+          margin-top: -950px;
+          margin-left: 20px;
+          margin-right:20px ; /* Same as the width of the sidenav */
+          font-size: 20px; /* Increased text to enable scrolling */
+          padding: 0px 0px;
+          color: white;  
+        }
+        .header_button3 {
+          right: 270px; /*150 пикселей соблюдать*/
+          visibility: hidden;
+        }
+        .header_button4 {
+          right: 130px; /*150 пикселей соблюдать*/
+          visibility: hidden;
+        }
+        .card1 {
+          align-items: center;
+          border-radius: 10px; /* 5px rounded corners */
+          max-width: 570px;
+          max-height: 400px;
+          margin-bottom: 20px;
+          margin-left: 20px;
+          display: grid;
+          background-color: #000;
+          grid-template-columns: min-content 1fr;
+        }
+        .card_title {
+          color: #fff;
+          font-size: 21px;
+          margin-left: 20px;
+          margin-bottom: 10px;
+          margin-top: -20px;
+        }
+        .card_text {
+          padding: 0 150px 15px 0;
+          font-size: 17px;
+          margin-top: -20px;
+        }
+        .card_button {
+          font-size: 18px;
+         width: 150px;
+         height: 50px;
+         background-color: #0012B2;
+         color: #fff;
+         margin-left: 210px;
+         margin-top: 10px;
+         border-radius: 8px;
+        }
+        .restracia_bok_menu {
+          visibility: hidden;
+          position: fixed;
+        }
+      
+      
+      }
+      
+      
+      @media screen and (min-width: 319px) and (max-width: 320px) {
+        body {
+          margin: 0;
+          padding: 0;
+          background-color: rgba(22, 22, 23, 1);
+          margin:0 auto;
+          overflow-x: hidden;
+          overflow-y: scroll;
+          width: 600px;
+        }
+        html{
+          font-family: "Comic Sans MS", "Comic Sans";
+          overflow-x: hidden;
+          overflow-y: scroll;
+        }
+      
+        .sidenav {
+          visibility: hidden;
+        }
+        .sidenav2 {
+          visibility: hidden;
+        }
+        .d7 {
+          visibility: hidden;
+        }
+        .ahki {
+          margin-left:130px;
+        }
+        .main {
+          margin-top: -950px;
+          margin-left: 20px;
+          margin-right:20px ; /* Same as the width of the sidenav */
+          font-size: 20px; /* Increased text to enable scrolling */
+          padding: 0px 0px;
+          color: white;  
+        }
+        .header_button3 {
+          right: 270px; /*150 пикселей соблюдать*/
+          visibility: hidden;
+        }
+        .header_button4 {
+          right: 130px; /*150 пикселей соблюдать*/
+          visibility: hidden;
+        }
+        .card1 {
+          align-items: center;
+          border-radius: 10px; /* 5px rounded corners */
+          max-width: 570px;
+          max-height: 400px;
+          margin-bottom: 20px;
+          margin-left: 20px;
+          display: grid;
+          background-color: #000;
+          grid-template-columns: min-content 1fr;
+        }
+        .card_title {
+          color: #fff;
+          font-size: 21px;
+          margin-left: 20px;
+          margin-bottom: 10px;
+          margin-top: -20px;
+        }
+        .card_text {
+          padding: 0 150px 15px 0;
+          font-size: 17px;
+          margin-top: -20px;
+        }
+        .card_button {
+          font-size: 18px;
+         width: 150px;
+         height: 50px;
+         background-color: #0012B2;
+         color: #fff;
+         margin-left: 210px;
+         margin-top: 10px;
+         border-radius: 8px;
+        }
+        .restracia_bok_menu {
+          visibility: hidden;
+          position: fixed;
+        }
+      
+      
+      }
+      
+
+  footer{
+    height: auto;
+    background-color: rgb(240, 240, 240);
+    bottom: 0;
+    color: #000;
+}
+
+ul {
+  list-style: none;
+  float: left;
+}
+
+form {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+  }
+.d7:after {content:""; clear:both; display:table}
+.d7 form {
+  width: auto;
+  float: right;
+  top: -270px;
+  margin-right: 15px;
+}
+.d7 input {
+  width: 250px;
+  height: 30px;
+  padding-left: 15px;
+  border-radius: 12px;
+  border: 2px solid #111;
+  background: #fff;
+  outline: none;
+  position: relative;
+  transition: .3s linear;
+}
+.d7 input:focus {
+  width: 350px;
+}
+.d7 button {
+  width: 42px;
+  height: 42px;
+  background: none;
+  border: none;
+  position: absolute;
+  top: -4px;
+  right: 5px;
+}
+.d7 button:before{
+  content: "\f002";
+  font-family: FontAwesome;
+  color: #324b4e;
+}
+
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+/* ____ПОДВАЛ САЙТА_______*/
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+/*                        */
+.stylles{
+  margin-right: 1000px;
+}
+footer button {
+    color: #000;
+    margin-left: 5px;
+    border: 2px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+footer h2 {
+    margin: 10px;
+    margin-bottom: 10px;
+    padding: 12px;
+}
+footer a {
+    color: #002DCC;
+    outline: none;
+    text-decoration: none;
+}
+
+footer a:link {
+    color: #002DCC;
+  }
+  
+footer a:visited {
+    color: #002DCC;
+  }
+  
+footer a:focus {
+    border-bottom: 1px solid;
+    background: #506DD1;
+  }
+  
+footer a:hover {
+    border-bottom: 1px solid;
+    background: #94ABFB;
+  }
+  
+footer a:active {
+    background: #002DCC;
+    color: #506DD1;
+  }
